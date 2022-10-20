@@ -13,4 +13,10 @@ public class HelloTest {
         assertEquals("hello soyeong jeon", hello.print("soyeong jeon"));
     }
 
+    @Test
+    public void testHi() {
+        assertEquals("hi soyeong jeon", hello.print("soyeong jeon"));
+    }
+
+
 }
